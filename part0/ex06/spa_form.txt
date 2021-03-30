@@ -1,0 +1,11 @@
+browser->server:HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+server receives request,
+creates a new JSON object from the request,
+adds it to the notes array
+end note
+
+note over browser:
+rerenders the notes list on the /spa web page
+end note
